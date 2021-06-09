@@ -11060,7 +11060,7 @@ footer.footer .social-link:hover {
  .masthead h3, .masthead .h3 {
     font-family: Montserrat;
   font-weight:700;
-    background-color: (225, 225, 225, 0.5);
+    background-color: rgba(225, 225, 225, 0.8);
     color: rgba(243, 146, 0);
   }
 
