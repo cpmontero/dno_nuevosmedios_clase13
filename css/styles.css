@@ -10868,14 +10868,14 @@ html {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  background: rgba(243, 146, 0, 0.5);
   line-height: 45px;
 }
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: #fff;
 }
 .scroll-to-top:hover {
-  background: #343a40;
+  background: rgba(243, 146, 0);
 }
 .scroll-to-top i {
   font-weight: 100;
@@ -10955,7 +10955,7 @@ html {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   background: #000000;
   line-height: 50px;
   z-index: 999;
@@ -10964,11 +10964,19 @@ html {
   color: #ffffff;
 }
 .menu-toggle:hover {
-  background: #000000;
+  background: #f39200;
 }
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
+  background-color: #f39200;
+  border-color: #f39200;
+  color: #ffffff;
+}
+.btn-xl:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #f39200;
 }
 
 .callout {
