@@ -51,9 +51,9 @@
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Montserrat;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 100, 400, 700;
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
@@ -10878,7 +10878,7 @@ html {
   background: #343a40;
 }
 .scroll-to-top i {
-  font-weight: 800;
+  font-weight: 100;
 }
 
 #sidebar-wrapper {
@@ -10904,6 +10904,8 @@ html {
 
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
+  font-family: Montserrat; 
+  font-weight:400;
   text-decoration: none;
   color: #fff;
   padding: 15px;
@@ -10971,14 +10973,14 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/callout.jpeg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .callout h2, .callout .h2 {
   font-family: Montserrat; 
-  font-weight:700;
+  font-weight:100;
   font-size: 3.5rem;
   display: block;
   max-width: 30rem;
@@ -11027,7 +11029,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/masthead1.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
