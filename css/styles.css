@@ -7389,7 +7389,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #000000 !important;
 }
 
 .bg-secondary {
@@ -10974,8 +10974,8 @@ html {
   color: #ffffff;
 }
 .btn-xl:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   border-color: #000000;
 }
 
@@ -11060,6 +11060,7 @@ footer.footer .social-link:hover {
  .masthead h3, .masthead .h3 {
     font-family: Montserrat;
   font-weight:700;
+    background-color: (225, 225, 225, 0.5);
     color: rgba(243, 146, 0);
   }
 
